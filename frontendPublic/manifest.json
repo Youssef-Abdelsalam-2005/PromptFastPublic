@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "PromptFast",
+  "description": "Supercharge chatGPT with automatically generated advanced prompts",
+  "homepage_url": "https://promptfast.info",
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "matches": ["https://chat.openai.com/"],
+      "css": ["pf.css"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "background": {
+    "service-worker": "firebase.js"
+  },
+  "icons": {
+    "32": "logo.png",
+    "16": "logo.png",
+    "48": "logo.png",
+    "64": "logo.png",
+    "128": "logo.png"
+  },
+  "action": { "default_popup": "index.html" },
+  "permissions": ["scripting", "tabs"],
+  "host_permissions": ["https://chat.openai.com/*"],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}

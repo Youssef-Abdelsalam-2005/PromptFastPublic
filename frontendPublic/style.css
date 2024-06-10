@@ -1,0 +1,164 @@
+body {
+  width: 400px;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#pfForm {
+  display: flex;
+  justify-content: space-around;
+  align-items: space-around;
+  flex-direction: column;
+}
+
+/* Reset and basic styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fefae0;
+}
+
+img {
+  width: 100px;
+}
+
+/* Form container */
+#pfForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: transparent;
+  border: none;
+}
+
+/* Input fields */
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Submit button */
+#pfSubmit {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#pfSubmit:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+#pfSubmit:hover {
+  background-color: #0056b3;
+}
+
+/* Description and Log Out button */
+#pfDescription {
+  text-align: center;
+  margin-top: 20px;
+}
+#pfLogOut {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#pfLogOut {
+  padding: 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#pfLogOut:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+#pfLogOut:hover {
+  background-color: #c82333;
+}
+
+#pfCreate {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+#pfCreate:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+#pfCreate:hover {
+  background-color: #218838;
+}
+
+#pfForgot {
+  padding: 10px;
+  background-color: #ffc107;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+#pfForgot:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+#pfForgot:hover {
+  background-color: #e0a800;
+}
+
+#pfBilling {
+  padding: 10px;
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+#pfBilling:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+#pfBilling:hover {
+  background-color: #0056b3;
+}

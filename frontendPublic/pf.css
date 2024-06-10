@@ -1,0 +1,18 @@
+#pf {
+  border: 1px solid white;
+  border-radius: 8px;
+  width: 18%;
+  margin: auto;
+  background-color: white;
+  color: black;
+  margin-bottom: 13px;
+  font-weight: 500;
+  cursor: pointer;
+
+  transition: all 0.15s ease-in-out;
+}
+
+#pf:disabled {
+  opacity: 0.2;
+  cursor: default;
+}

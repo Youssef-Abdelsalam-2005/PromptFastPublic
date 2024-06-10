@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PromptFast</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img src="logo.png">
+    <button id="pfForm">
+      <input type="email" id="pfEmail" name="email" placeholder="Email"/>
+      <input type="password" id="pfPassword" name="password" placeholder="Password"/>
+      <div id="pfDescription">Not logged in</div>
+    </form>
+    <button type="submit" id="pfSubmit" >Log In</button>
+    <button id="pfCreate">Create Account</button>
+    <button id="pfLogOut">Log Out</button>
+    <button id="pfForgot">Forgot Password</button>
+    <button id="pfBilling">Billing</button>
+    <script src="firebase-app.js"></script>
+    <script src="firebase-auth.js"></script>
+    <script src="firebase.js"></script>
+    <script src="authentication.js"></script>
+  </body>
+</html>
